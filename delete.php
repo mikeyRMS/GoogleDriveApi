@@ -1,4 +1,5 @@
 <?php
+// bale nag fufufnction naman ng maayos yung delete na akapag dinilete ay ayun nadedelete nga anuba.
 require __DIR__ . '/vendor/autoload.php';
 session_start();
 
