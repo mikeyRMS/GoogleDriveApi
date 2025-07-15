@@ -1,5 +1,6 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+//after cloning your git repo and moving the folder to htdocs, I encounter errors on every php files on line 2 when running on localhost
+require __DIR__ . '/vendor/autoload.php'; <!-- this part is essential -->
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['file'])) {
