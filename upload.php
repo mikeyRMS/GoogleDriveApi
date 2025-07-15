@@ -1,4 +1,6 @@
 <?php
+//the structure of code is  amazing but, the vendor/autoload.php is missing
+
 require __DIR__ . '/vendor/autoload.php';
 
 session_start();
