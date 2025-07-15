@@ -1,5 +1,5 @@
 <?php
-// bale nag fufufnction naman ng maayos yung delete na akapag dinilete ay ayun nadedelete nga anuba.
+// bale nag fufufnction naman ng maayos yung delete na kapag dinilete ay ayun nadedelete nga.
 require __DIR__ . '/vendor/autoload.php';
 session_start();
 
